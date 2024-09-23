@@ -8,8 +8,9 @@
 <project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
 
 <!-- Kernel 4.19 -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
-<project path="kernel/xiaomi/msm8937" name="LineageOS/android_kernel_xiaomi_msm8937" remote="github" clone-depth="1" revision="lineage-21" />
+ <project path="kernel/xiaomi/msm8937" name="LineageOS/android_kernel_xiaomi_msm8937" remote="github" clone-depth="1" revision="lineage-21" />
+ 
+<!--project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
 
 <!-- HALs -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21"/>
