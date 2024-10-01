@@ -29,4 +29,9 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
+  
+  <!-- GMS Remove -->
+  <remove-project path="vendor/google/gms" />
+  <remove-project path="vendor/google/pixel" />
+  
 </manifest>
