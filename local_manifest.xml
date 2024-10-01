@@ -29,6 +29,12 @@
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
 
+ <!-- Vendor -->
+  <remove-project path="vendor/pixelstar" />
+  <project path="vendor/aospa" name="Gtajisan/vendor_pixelstar" remote="github" revision="14-qpr3" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="json.sh" dest="generate-json.sh" />
+  </project>
   
   <!-- GMS Remove -->
   <remove-project path="vendor/google/gms" />
