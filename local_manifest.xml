@@ -4,27 +4,26 @@
   <!-- v4x -->
  <project path="packages/apps/ViPER4AndroidFX" name="Gtajisan/packages_apps_ViPER4AndroidFX" remote="github" revision="v4a" />
       
- <!-- Apps -->
+<!-- Apps -->
 <project path="packages/apps/GrapheneCam" name="MI439-CLO/android_packages_apps_GrapheneCam" remote="github" revision="topaz" clone-depth="1" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/sdm439" name="Jprimero15/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc_new" />
+<project path="kernel/xiaomi/sdm439" name="janakniraula/kernel_xiaomi_sdm439" remote="github" clone-depth="1" revision="uvite" />
 
 <!-- HALs -->
-<project path="hardware/mithorium-4.19" name="MI439-CLO/android_hardware_mithorium-4.19" remote="github" clone-depth="1" revision="udc-k4.19" />
+<project path="hardware/mithorium" name="janakniraula/android_hardware_mithorium-4.9" remote="github" clone-depth="1" revision="lineage-19.1-k4.9" />
 
 <!-- GPS -->
-<project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+<project path="hardware/qcom-caf/gps-legacy" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
    
 <!-- Device -->
-<project path="device/xiaomi/mi439" name="Gtajisan/device_xiaomi_mi439" remote="github" revision="infinity" />
-<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-3" />
+<project path="device/xiaomi/mi439" name="janakniraula/device_xiaomi_mi439" remote="github" revision="udc" />
+<project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc" />
 
 <!--- Vendor Blobs -->
-<project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
-<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
-
+<project path="vendor/xiaomi/mi439" name="Gtajisan/device_xiaomi_mi439" remote="github" revision="infinity" />
 <!-- Vendor Opensource -->
-<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
-
+<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+<project path="vendor/qcom/opensource/core-utils" name="PixelExperience-Staging/vendor_qcom_opensource_core-utils" remote="github" revision="fourteen" />
+   
 </manifest>
