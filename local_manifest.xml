@@ -22,8 +22,11 @@
 
 <!--- Vendor Blobs -->
 <project path="vendor/xiaomi/mi439" name="Gtajisan/device_xiaomi_mi439" remote="github" revision="infinity" />
-<!-- Vendor Opensource -->
-<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
-<project path="vendor/qcom/opensource/core-utils" name="PixelExperience-Staging/vendor_qcom_opensource_core-utils" remote="github" revision="fourteen" />
-   
+
+  <!-- Vendor Opensource -->
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+
+  <!-- Vendor Opensource -->
+<project path="vendor/qcom/opensource/core-utils" name="MI439-CLO/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
+
 </manifest>
