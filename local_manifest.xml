@@ -14,7 +14,7 @@
 <project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
    
 <!-- Device -->
-<project path="device/xiaomi/mi439" name="Trijal08/device_xiaomi_mi439" remote="github" revision="Orion_OS" />
+<project path="device/xiaomi/mi439" name="Trijal08/device_xiaomi_mi439" remote="github" revision="OrionOS" />
 <project path="device/qcom/common" name="MI439-CLO/device_qcom_common" remote="github" revision="udc-3" />
 
 <!--- Vendor Blobs -->
